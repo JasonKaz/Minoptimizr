@@ -1,22 +1,38 @@
+function bytesToSize(bytes){
+    var Times=0,
+        Letters=['b', 'kb', 'mb'];
+    while(bytes>1024){
+        bytes/=1024;
+        Times++;
+    }
+
+    return precisionRound(bytes, 2)+Letters[Times];
+}
+
+function precisionRound(x, precision){
+    if (precision==undefined)
+        precision=0;
+    return Math.round(x*Math.pow(10, precision))/Math.pow(10, precision);
+}
+
 $(function(){
     var $upload=$('#upload');
     
     $upload.uploadify({
-        debug               : true,
+        debug               : false,
         auto                : false,
         uploader            : 'php/uploadify.php',
         swf                 : 'php/uploadify.swf',
         fileTypeExts        : '*.js; *.css',
         fileTypeDesc        : 'JavaScript, CSS',
         multi               : true,
-        onUploadComplete    : function(file){
-            console.log(file);
-            //var r=$.parseJSON(response);
-            //$('#files').append('<tr><td><a href="'+r.File+'" target="_blank">'+r.Filename+'.gz</a></td><td>'+r.SizeStart+'</td><td>'+r.SizeEnd+'</td><td>'+r.SizeSaved+'%</td></tr>')
+        onUploadSuccess     : function(file, data, response){
+            var r=$.parseJSON(data),
+                per=precisionRound((1-(r.end_size/r.start_size))*100, 2);
+            console.log(per);
+            $('#files').append('<tr><td><a href="/apps/minoptimizr/tmp_files/'+r.filename+'" target="_blank">'+r.filename+'</a></td><td>'+bytesToSize(r.start_size)+'</td><td>'+bytesToSize(r.end_size)+'</td><td>'+per+'%</td></tr>');
         },
         onQueueComplete     : function(queueData){
-            console.log(queueData);
-
             $('#local').fadeOut();
             $('#choose_files').fadeOut(function(){
                 $('#download').fadeIn();
@@ -25,7 +41,7 @@ $(function(){
     });
     
     $('#upload_button').click(function(){
-        $upload.uploadify('upload');
+        $upload.uploadify('upload' ,'*');
     });
     
     jQuery.fn.center=function(){

@@ -36,7 +36,7 @@
                     <a href="javascript:void(0)" id="go_back">&lt;&lt; Go Back</a>
                     <h1>2. Download your files</h1>
                     <table id="files">
-                        <thead><tr><th>File</th><th>Size Start</th><th>Size End</th><th>% Compressed</th></tr></thead>
+                        <thead><tr><th>File</th><th>Before</th><th>After</th><th>% Compressed</th></tr></thead>
                     </table>
                 </div>
             </div>
