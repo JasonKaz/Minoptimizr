@@ -16,16 +16,20 @@ function precisionRound(x, precision){
 }
 
 $(function(){
-    var $upload=$('#upload');
+    var $upload=$('#upload'),
+        options={};
     
     $upload.uploadify({
-        debug               : false,
+        debug               : true,
         auto                : false,
         uploader            : 'php/uploadify.php',
         swf                 : 'php/uploadify.swf',
         fileTypeExts        : '*.js; *.css',
         fileTypeDesc        : 'JavaScript, CSS',
         multi               : true,
+        formData            : {
+            options         : options
+        },
         onUploadSuccess     : function(file, data, response){
             var r=$.parseJSON(data),
                 per=precisionRound((1-(r.end_size/r.start_size))*100, 2);
@@ -34,13 +38,17 @@ $(function(){
         },
         onQueueComplete     : function(queueData){
             $('#local').fadeOut();
-            $('#choose_files').fadeOut(function(){
+            $('.step1').fadeOut(function(){
                 $('#download').fadeIn();
             });
         }
     });
     
     $('#upload_button').click(function(){
+        $('.css_option, .js_option').each(function(){
+            options[$(this).attr('id')]=$(this).prop('checked');
+        });
+
         $upload.uploadify('upload' ,'*');
     });
     
@@ -64,7 +72,7 @@ $(function(){
     
     $('#go_back').click(function(){
         $('#download').fadeOut(function(){
-            $('#choose_files').fadeIn();
+            $('.step1').fadeIn();
         }) 
     });
     

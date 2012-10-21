@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ef4698-6415-4503-8cf9-36677bb91c19" name="Default" comment="Revert &quot;Added old project files&quot;&#10;&#10;This reverts commit e49869752a986db40fa4169a1e315758c0d6c48e.&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;css/style.css&#10;&#9;index.php&#10;&#9;js/index.js&#10;&#9;php/uploadify.php&#10;&#9;php/uploadify.swf&#10;&#9;results.php&#10;">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/Minoptimizr.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/uploadify.swf" afterPath="$PROJECT_DIR$/php/uploadify.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/uploadify.php" afterPath="$PROJECT_DIR$/php/uploadify.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results.php" afterPath="$PROJECT_DIR$/results.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/uploadify.php" afterPath="$PROJECT_DIR$/php/uploadify.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/uploadify.swf" afterPath="$PROJECT_DIR$/php/uploadify.swf" />
     </list>
     <ignored path="Minoptimizr.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,19 +42,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="62" selection-start="572" selection-end="572" vertical-scroll-proportion="0.28711656">
+            <state line="90" column="36" selection-start="5651" selection-end="5651" vertical-scroll-proportion="-5.37931">
+              <folding>
+                <element signature="tag#thead#0;tag#table#0;tag#div#0;tag#div#1;tag#div#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="111" column="0" selection-start="1489" selection-end="1489" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="231" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.0">
+            <state line="49" column="11" selection-start="1678" selection-end="1678" vertical-scroll-proportion="1.2772512">
               <folding />
             </state>
           </provider>
@@ -63,7 +74,7 @@
       <file leaf-file-name="uploadify.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/uploadify.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="59" selection-start="920" selection-end="920" vertical-scroll-proportion="0.0">
+            <state line="23" column="0" selection-start="754" selection-end="754" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -84,7 +95,6 @@
       <list>
         <option value="$PROJECT_DIR$/js/jquery-1.8.2.min.js" />
         <option value="$PROJECT_DIR$/results.php" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="C:/amp/www/VehicleForge/common/include/FileUploader.class.php" />
         <option value="$PROJECT_DIR$/php/test.php" />
         <option value="$PROJECT_DIR$/FileUploader.class.php" />
@@ -93,8 +103,9 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/php/JSMin.php" />
         <option value="$PROJECT_DIR$/php/CSSMin.php" />
-        <option value="$PROJECT_DIR$/php/uploadify.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/php/uploadify.php" />
         <option value="$PROJECT_DIR$/js/index.js" />
       </list>
     </option>
@@ -132,16 +143,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -186,6 +187,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -236,7 +247,7 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="24437018-6066-4ab6-a8bc-433a30d8b28e" server_name="Pendaren Studios">
       <method>
         <option name="FtpUpload" enabled="false">
           <server_id />
@@ -296,7 +307,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15667075" sideWeight="0.670068" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1383109" sideWeight="0.670068" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12056304" sideWeight="0.670068" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -368,11 +379,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/php/uploadify.old.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1004" selection-end="1137" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" />
@@ -390,86 +396,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="57" selection-start="457" selection-end="457" vertical-scroll-proportion="0.37198067">
-          <folding />
-        </state>
+        <state line="13" column="57" selection-start="457" selection-end="457" vertical-scroll-proportion="0.37198067" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FileUploader.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="19" selection-start="654" selection-end="654" vertical-scroll-proportion="0.030805686">
-          <folding />
-        </state>
+        <state line="28" column="19" selection-start="654" selection-end="654" vertical-scroll-proportion="0.030805686" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FileData.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="0" selection-start="2571" selection-end="2571" vertical-scroll-proportion="0.63033175">
-          <folding />
-        </state>
+        <state line="84" column="0" selection-start="2571" selection-end="2571" vertical-scroll-proportion="0.63033175" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="148" column="16" selection-start="1835" selection-end="1835" vertical-scroll-proportion="4.490082">
-          <folding />
-        </state>
+        <state line="148" column="16" selection-start="1835" selection-end="1835" vertical-scroll-proportion="4.490082" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/JSMin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="386" column="0" selection-start="13484" selection-end="13484" vertical-scroll-proportion="11.151659">
-          <folding>
-            <element signature="e#6#2110#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/CSSMin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="53" selection-start="499" selection-end="499" vertical-scroll-proportion="0.10663507">
-          <folding />
-        </state>
+        <state line="386" column="0" selection-start="13484" selection-end="13484" vertical-scroll-proportion="11.151659" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/uploadify.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_5.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1099" column="9" selection-start="32224" selection-end="32224" vertical-scroll-proportion="0.75729287">
-          <folding />
-        </state>
+        <state line="1099" column="9" selection-start="32224" selection-end="32224" vertical-scroll-proportion="0.75729287" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="236" column="9" selection-start="6688" selection-end="6688" vertical-scroll-proportion="0.3325554">
+        <state line="236" column="9" selection-start="6688" selection-end="6688" vertical-scroll-proportion="0.3325554" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/CSSMin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="2" selection-start="717" selection-end="717" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="0" selection-start="1489" selection-end="1489" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/uploadify.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="59" selection-start="920" selection-end="920" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="231" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.0">
+        <state line="23" column="0" selection-start="754" selection-end="754" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="62" selection-start="572" selection-end="572" vertical-scroll-proportion="0.28711656">
+        <state line="90" column="36" selection-start="5651" selection-end="5651" vertical-scroll-proportion="-5.37931">
+          <folding>
+            <element signature="tag#thead#0;tag#table#0;tag#div#0;tag#div#1;tag#div#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="11" selection-start="1678" selection-end="1678" vertical-scroll-proportion="1.2772512">
           <folding />
         </state>
       </provider>

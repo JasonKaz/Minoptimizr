@@ -1,6 +1,6 @@
 *	{
-	padding: 0px;
-	margin: 0px;
+	padding: 0;
+	margin: 0;
     outline: 0;
 }
 
@@ -52,7 +52,7 @@ a   {
     height: 55px;
 }
 
-#body, #info, #local   {
+.content   {
     margin-top: 20px;
     background: #333;
     padding: 5px;
@@ -109,8 +109,9 @@ tbody a {
 
 tbody tr:hover {
 	background-color: #4F4F4F;
-	color: #1F1F1F
+	color: #0d0d0d;
 }
+
 
 /*Uploadify*/
 /*

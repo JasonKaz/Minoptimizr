@@ -5,6 +5,8 @@ Copyright (c) 2012 Reactive Apps, Ronnie Garcia
 Released under the MIT License <http://www.opensource.org/licenses/mit-license.php> 
 */
 
+var_dump($_POST['options']);
+
 // Define a destination
 $targetFolder = '/apps/minoptimizr/tmp_files/'; // Relative to the root
 
