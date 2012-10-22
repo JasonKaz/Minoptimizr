@@ -20,21 +20,21 @@ $(function(){
         options={};
     
     $upload.uploadify({
-        debug               : true,
+        debug               : false,
         auto                : false,
         uploader            : 'php/uploadify.php',
         swf                 : 'php/uploadify.swf',
         fileTypeExts        : '*.js; *.css',
         fileTypeDesc        : 'JavaScript, CSS',
         multi               : true,
-        formData            : {
-            options         : options
-        },
         onUploadSuccess     : function(file, data, response){
+            console.log(data);
+
             var r=$.parseJSON(data),
                 per=precisionRound((1-(r.end_size/r.start_size))*100, 2);
-            console.log(per);
+            //console.log(per);
             $('#files').append('<tr><td><a href="/apps/minoptimizr/tmp_files/'+r.filename+'" target="_blank">'+r.filename+'</a></td><td>'+bytesToSize(r.start_size)+'</td><td>'+bytesToSize(r.end_size)+'</td><td>'+per+'%</td></tr>');
+
         },
         onQueueComplete     : function(queueData){
             $('#local').fadeOut();
@@ -49,6 +49,7 @@ $(function(){
             options[$(this).attr('id')]=$(this).prop('checked');
         });
 
+        $upload.uploadify('settings', 'formData', {options:JSON.stringify(options)});
         $upload.uploadify('upload' ,'*');
     });
     

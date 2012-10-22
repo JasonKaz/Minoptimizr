@@ -42,10 +42,6 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><label for="css_min">Minify</label></td>
-                                    <td><input type="checkbox" id="css_min" class="css_option" checked /></td>
-                                </tr>
-                                <tr>
                                     <td><label for="css_gzip">GZIP</label></td>
                                     <td><input type="checkbox" id="css_gzip" class="css_option"  /></td>
                                 </tr>
@@ -60,10 +56,6 @@
                                 <tr>
                                     <td><label for="css_emptyats">Remove Empty @ Blocks</label></td>
                                     <td><input type="checkbox" id="css_emptyats" class="css_option" checked /></td>
-                                </tr>
-                                <tr>
-                                    <td><label for="css_browserconvert">Convert Browser Specifics</label></td>
-                                    <td><input type="checkbox" id="css_browserconvert" class="css_option" checked /></td>
                                 </tr>
                                 <tr>
                                     <td><label for="css_font">Convert Font Weights</label></td>
@@ -81,6 +73,11 @@
                                     <td><label for="css_compressunits">Compress Units</label></td>
                                     <td><input type="checkbox" id="css_compressunits" class="css_option" checked /></td>
                                 </tr>
+                                <tr>
+                                    <td><label for="css_browserconvert">Convert Browser Specifics</label></td>
+                                    <td><input type="checkbox" id="css_browserconvert" class="css_option" /></td>
+                                </tr>
+
                             </tbody>
                         </table>
                         <table>
